@@ -1,3 +1,5 @@
 input/
 aiprojenv/
 .DS_Store
+checkdata.py
+input.zip
