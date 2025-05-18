@@ -78,7 +78,7 @@ This model uses a pre-trained EfficientNet-B4 as a backbone and is fine-tuned on
 
 ### 2. CNN_AUX Model (Multi-Task Learning)
 
-This model uses EfficientNet-B4 for image encoding and includes auxiliary targets from `train.csv` such as patient age, view, and laterality. The auxiliary loss is weighted and the weight can be adjusted using the `aux_loss_weight` parameter in the configuration class (set as 40%).
+This model uses EfficientNet-B4 for image encoding and includes auxiliary targets from `train.csv` such as patient age, view, and laterality. The auxiliary loss is weighted and the weight can be adjusted using the `aux_loss_weight` parameter in the configuration class (set as 10%).
 
 ## Output Files
 
